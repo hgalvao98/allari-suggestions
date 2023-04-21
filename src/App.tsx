@@ -6,6 +6,7 @@ import onHover2 from "./assets/onHover2.jpeg";
 import banner from "./assets/Banner.jpeg";
 import buttonDesktop from "./assets/button-desktop.jpeg";
 import buttonMobile from "./assets/button-mobile.jpeg";
+import croppedButton from "./assets/croppedButton.jpeg";
 
 import "./App.css";
 
@@ -32,7 +33,10 @@ function App() {
         </div>
       </header>
       <article>
-        <h4>Suggestion 1: Header needs to be optimized for responsiveness</h4>
+        <h4>
+          Suggestion 1: Header needs to be optimized for responsiveness (See
+          example on this website's header)
+        </h4>
         <p>
           Header links overlap each other and mobile menu appears alongside CTA
           "Schedule a call". For user experience, is better to display all links
@@ -69,6 +73,13 @@ function App() {
             <img src={buttonMobile} />
           </div>
         </div>
+        <h4>Suggestion 5: button is cropped on mobile</h4>
+        <p>
+          Button is being cropped on mobile devices, but can be easily fixed by
+          assigning a width with "%" or "rem". Using this, means that the entire
+          website can be responsive depending on the size of the device
+        </p>
+        <img src={croppedButton} />
       </article>
     </React.Fragment>
   );
