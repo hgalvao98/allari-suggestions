@@ -9,6 +9,12 @@
   background-color: white;
 }
 
+.column-suggestion {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
 .links {
   display: flex;
   flex-direction: row;

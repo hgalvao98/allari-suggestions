@@ -4,6 +4,8 @@ import menu from "./assets/menu-aberto.png";
 import onHover1 from "./assets/onHover1.jpeg";
 import onHover2 from "./assets/onHover2.jpeg";
 import banner from "./assets/Banner.jpeg";
+import buttonDesktop from "./assets/button-desktop.jpeg";
+import buttonMobile from "./assets/button-mobile.jpeg";
 
 import "./App.css";
 
@@ -52,6 +54,21 @@ function App() {
           better visuals and fit more content into one page
         </p>
         <img src={banner} />
+        <h4>Suggestion 4: CTA buttons change format based on device</h4>
+        <p>
+          Can be easily fixed by defining a default button class that will be
+          passed through all buttons on the pages
+        </p>
+        <div className="column-suggestion">
+          <div>
+            <p>Desktop</p>
+            <img src={buttonDesktop} />
+          </div>
+          <div>
+            <p>Mobile</p>
+            <img src={buttonMobile} />
+          </div>
+        </div>
       </article>
     </React.Fragment>
   );
