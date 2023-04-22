@@ -80,6 +80,11 @@ function App() {
           website can be responsive depending on the size of the device
         </p>
         <img src={croppedButton} />
+        <h4>Great Solution for most suggestiong</h4>
+        <p>
+          Utilize a CSS pre-processor to maintain defined default values for
+          buttons, font size, and colors
+        </p>
       </article>
     </React.Fragment>
   );
